@@ -1,7 +1,7 @@
 # aws-lambda-docker-html-to-pdf
 
 Python script to read an HTML template, load some values and then save the changed template as a PDF in a bucket.
-
+Note: It will be necessary to include permission to write to the bucket in the role used by the lambda
 ### Dockerfile
 
 The Dockerfile includes:
